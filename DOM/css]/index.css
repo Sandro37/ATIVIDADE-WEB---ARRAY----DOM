@@ -1,0 +1,40 @@
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+th{
+    background-color: rgb(196, 196, 196);
+}
+
+td{
+    background-color: whitesmoke;
+}
+#resultado{
+    width: 5%; 
+    height: 14px;
+    background-color: red;
+    border-radius: 4px;
+}
+
+#enviar{
+    background-color: blue;
+    color: white;
+    height: 30px;
+}
+
+fieldset{
+    border:2px solid rgb(0, 0, 0);
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;	
+}
+
+input, select{
+    display: block;
+    width: 100%;
+}

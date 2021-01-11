@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="/js/animaisArray.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Animais</title>
+</head>
+<body>
+    <p>Entre com um animal: <input type="text" id="animal" required></p>
+    <button onclick="adicionarInicioVetorAnimal()" >Adicionar Animal No Inicio</button>
+    <hr>
+    <button onclick="adicionarFinalVetorAnimal()">Adicionar Animal ao fim do vetor</button>
+    <hr>
+    <button onclick="removerAnimalInicio()">Remover Animal no inicio do vetor</button>
+    <hr>
+    <button onclick="removerAnimalFinal()">Remover Animal no final</button>
+    <hr>
+    <button onclick="exibirNaTelaAnimais()">Exibir Animais na tela</button>
+    <hr>
+    <button onclick="exibirAleatorioAnimal()">Exibir Animal Aleatório na tela</button>
+    <hr>
+    <br>
+    <p id="ExibirAnimais"></p>
+</body>
+</html>

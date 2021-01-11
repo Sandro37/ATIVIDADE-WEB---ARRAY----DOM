@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="css]/index.css">
+    <script src="js/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <fieldset>
+        <h1>Orçamento</h1>
+        <div>
+            <label for="Conta">Conta:</label>
+            <input type="text" name="conta" id="conta">
+        </div>
+        <div>
+            <label for="Valor">Valor:</label>
+            <input type="text" name="valor" id="valor">
+        </div>
+        <div>
+            <label for="tipo">Tipo:</label>
+            <select name="tipo" id="tipo">
+                <option value="saida">Saída</option>
+                <option value="entrada">Entrada</option>
+            </select>
+        </div>
+        <br>
+        <button id="enviar" onclick="pegarValor()">ENVIAR</button>
+    </fieldset>
+    <br><br><br>
+    <table id="tabela">
+        <tr>
+            <th>CONTA</th>
+            <th>TIPO</th>
+            <th>VALOR</th>
+            <th>REMOVE</th>
+        </tr>
+    </table>
+</body>
+</html>

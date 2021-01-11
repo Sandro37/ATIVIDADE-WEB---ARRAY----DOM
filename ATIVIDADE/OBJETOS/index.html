@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="/JS/index.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OBJETOS</title>
+</head>
+<body>
+    <div>
+        <h1>cadastro de livros</h1>
+    </div>
+    <fieldset>
+        <div>
+            <label for="nome">NOME:</label>
+            <input type="text" name="nome" id="nome" required>
+        </div>
+        <div>
+            <label for="autor">AUTOR:</label>
+            <input type="text" name="autor" id="autor" required>
+        </div>
+        <div>
+            <label for="numPaginas">NÚMERO DE PÁGINAS:</label>
+            <input type="text" name="numPaginas" id="numPaginas" required>
+        </div>
+        <div>
+            <label for="genero">GENERO:</label>
+            <input type="text" name="genero" id="genero" required>
+        </div>
+        <button onclick="adicionarLivro()">CADASTRAR</button>
+        <button onclick="listarLivros()">LISTAR</button>
+    </fieldset>
+
+    <p id="listar"></p>
+</body>
+</html>
